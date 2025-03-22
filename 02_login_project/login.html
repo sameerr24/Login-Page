@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(147, 44, 39);
+        margin: 0;
+        padding: 0;
+        font-style: normal;
+        font-weight: bold;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        color: rgb(50, 17, 169);
+        text-align: center;
+        margin-bottom: 25px;
+      }
+      button {
+        background-color: rgb(184, 16, 122);
+        color: aliceblue;
+        width: 100px;
+        align-self: center;
+        margin-top: 25px;
+      }
+      button:hover {
+        background-color: rgb(209, 32, 215);
+      }
+      input {
+        padding: 10px;
+        border-radius: 10px;
+      }
+      label {
+        margin: 10px;
+        align-self: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      .card {
+        background-color: rgb(65, 201, 174);
+        border-radius: 10px;
+        padding: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Login Page</h1>
+      <form>
+        <label name="Username">
+          Username:
+          <input
+            type="text"
+            name="Username"
+            placeholder="Enter your username"
+          />
+        </label>
+        <label name="Password">
+          Password:
+          <input
+            type="password"
+            name="Password"
+            placeholder="Enter your password"
+          />
+        </label>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
